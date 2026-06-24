@@ -5,7 +5,7 @@ import { useState } from "react";
 export default function Page() {
   const [input, setInput] = useState("0");
 
-  const handleClick = (value) => {
+  const handleClick = (value: string) => {
     if (input === "0" && value !== ".") {
       setInput(value);
     } else {
