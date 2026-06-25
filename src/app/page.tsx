@@ -26,10 +26,10 @@ export default function Page() {
   };
 
   return (
-    <div className="min-h-screen bg-[#020B1E] flex items-center justify-center">
-      <div className="bg-[#08132D] p-6 rounded-2xl shadow-2xl w-[270px]">
+    <div className="min-h-screen bg-black flex items-center justify-center">
+      <div className="bg-black p-6 rounded-2xl shadow-2xl w-[270px]">
         {/* Display */}
-        <div className="bg-[#1C2B47] h-14 rounded-md flex items-center justify-end px-4 text-gray-300 text-3xl mb-6 overflow-hidden">
+        <div className="bg-black h-14 rounded-md flex items-center justify-end px-4 text-gray-300 text-3xl mb-6 overflow-hidden">
           {input}
         </div>
 
@@ -37,7 +37,7 @@ export default function Page() {
         <div className="grid grid-cols-4 gap-3">
           <button
             onClick={clearDisplay}
-            className="col-span-3 bg-red-600 hover:bg-red-700 text-white rounded-md h-10 font-semibold"
+            className="col-span-3 bg-gray-600 hover:bg-gray-700 text-white rounded-md h-10 font-semibold"
           >
             C
           </button>
@@ -51,19 +51,19 @@ export default function Page() {
 
           <button
             onClick={() => handleClick("7")}
-            className="bg-[#111827] text-white rounded-md h-10"
+            className="bg-gray-900 text-white rounded-md h-10"
           >
             7
           </button>
           <button
             onClick={() => handleClick("8")}
-            className="bg-[#111827] text-white rounded-md h-10"
+            className="bg-gray-900 text-white rounded-md h-10"
           >
             8
           </button>
           <button
             onClick={() => handleClick("9")}
-            className="bg-[#111827] text-white rounded-md h-10"
+            className="bg-gray-900 text-white rounded-md h-10"
           >
             9
           </button>
@@ -103,19 +103,19 @@ export default function Page() {
 
           <button
             onClick={() => handleClick("1")}
-            className="bg-[#111827] text-white rounded-md h-10"
+            className="bg-gray-900 text-white rounded-md h-10"
           >
             1
           </button>
           <button
             onClick={() => handleClick("2")}
-            className="bg-[#111827] text-white rounded-md h-10"
+            className="bg-gray-900 text-white rounded-md h-10"
           >
             2
           </button>
           <button
             onClick={() => handleClick("3")}
-            className="bg-[#111827] text-white rounded-md h-10"
+            className="bg-gray-900 text-white rounded-md h-10"
           >
             3
           </button>
@@ -129,21 +129,21 @@ export default function Page() {
 
           <button
             onClick={() => handleClick("0")}
-            className="col-span-2 bg-[#111827] text-white rounded-md h-10"
+            className="col-span-2 bg-gray-900 text-white rounded-md h-10"
           >
             0
           </button>
 
           <button
             onClick={() => handleClick(".")}
-            className="bg-[#111827] text-white rounded-md h-10"
+            className="bg-gray-900 text-white rounded-md h-10"
           >
             .
           </button>
 
           <button
             onClick={calculate}
-            className="bg-green-500 hover:bg-green-600 text-white rounded-md h-10"
+            className="bg-orange-500 hover:bg-orange-600 text-white rounded-md h-10"
           >
             =
           </button>
